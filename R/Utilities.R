@@ -120,7 +120,7 @@ calculate_cell_similarity = function(data1,data2,method = c("cosine","Euclidean"
 }
 
 
-#' distance_to_similarity() function is to convert
+#' distance_to_similarity() function is to convert distance matrix to similarity matrix
 #' @param distance_matrix Matrix calculated from calculate_cell_similarity() function. Each element is the distance_
 #' matrix is the distance between two datasets
 #' @param method The method to convert distance matrix to similarity matrix. `inverse` and `gaussian_kernel` are for
