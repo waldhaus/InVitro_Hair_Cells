@@ -42,7 +42,7 @@ invivo_time_df$state = Jan_sce@colData@listData[["CellTrails.state"]]
 expr_df <- as.data.frame(Jan_sce@assays@data@listData[["logcounts"]])
 Jan_object <- as.Seurat(Jan_sce, counts = "counts", data = "logcounts")
 
-#' find_top_variable() is to fine top 2000 variable features in vitro and in vivo datasets
+#' find_top_variable() is to find top 2000 variable features in vitro and in vivo datasets
 #' @param invitro_df A dataframe of in vitro trails
 #' @param invivo_df A dataframe of in vivo trails
 #' @param invitro_obj A Seurat object of in vitro HCs and SCs
